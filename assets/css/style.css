@@ -543,6 +543,7 @@ ol ul {
 @media only screen and (max-width: 767px) {
   .rn-section-gap {
     padding: 80px 0;
+
   }
 }
 
@@ -14365,13 +14366,7 @@ div#featured-project-carousel {
     margin-top: 0;
   }
 }
-.rn-nav-list .nav-item {
-  flex-basis: 25%;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 420px;
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-nav-list .nav-item {
     flex-basis: 25%;
@@ -14486,6 +14481,7 @@ div#featured-project-carousel {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .personal-experience-inner .experience-list .resume-single-list {
     padding: 30px 25px;
+    background-color: red;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16282,7 +16278,7 @@ span.sr-only {
   box-shadow: var(--shadow-1);
   border-radius: 10px;
   height: 85%;
-  margin-top: 150px;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-about-area {
@@ -16301,6 +16297,10 @@ span.sr-only {
     padding: 50px 20px;
     height: auto;
   }
+  .titre {
+    height: 100px;
+   }
+  
 }
 .contact-about-area .thumbnail {
   margin-bottom: 28px;
@@ -18340,3 +18340,4 @@ Rn Slick Dots Style
 
 
 /*# sourceMappingURL=../maps/style.css.map */
+
